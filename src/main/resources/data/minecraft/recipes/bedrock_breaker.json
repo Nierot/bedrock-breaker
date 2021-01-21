@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NDN",
+      "DPD",
+      "NDN"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "P": {
+          "item": "minecraft:diamond_pickaxe"
+      }
+    },
+    "result": {
+      "item": "minecraft:bedrock_breaker",
+      "count": 4
+    }
+  }
+
