@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bedrockbreaker",
+  "version": "1.0",
+  "name": "Bedrock Breaker",
+  "description": "Break bedrock with an item",
+  "authors": [
+    "Nierot"
+  ],
+  "contact": {
+    "repo": "https://github.com/Nierot/bedrock-breaker"
+  },
+  "license": "MIT",
+  "icon": "assets/bedrock-breaker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nierot.mc.bedrockbreaker.BedrockBreaker"
+    ]
+  },
+  "mixins": [
+    "bedrock-breaker.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "minecraft": "1.16.5"
+  }
+}
